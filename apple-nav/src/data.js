@@ -33,7 +33,7 @@ export default [
             {
                 name: "Mac mini",
                 img: "https://www.apple.com/v/mac/home/am/images/familybrowser/macmini__c6u0it831y0y_large.svg",
-                path: "mac-mini",
+                path: "/mac-mini/",
             },
         ]
 
