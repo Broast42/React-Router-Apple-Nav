@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 const Items = styled.div`
     display: flex;
@@ -11,8 +12,8 @@ const Items = styled.div`
 const FlexItems = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    color: black;
 
 `; 
 
@@ -21,11 +22,12 @@ export default function NavItem(props){
     return(
         <Items>
             {props.links.map((x,index)=>(
-                <FlexItems key={index}>
-                    <img src={x.img} alt={x.name} />
-                    <p>{x.name}</p>
-                </FlexItems>
-                
+                <NavLink to={x.path} key={index}>
+                    <FlexItems >
+                        <img src={x.img} alt={x.name} />
+                        <p>{x.name}</p>
+                    </FlexItems>
+                </NavLink>   
             ))}
             
         </Items>

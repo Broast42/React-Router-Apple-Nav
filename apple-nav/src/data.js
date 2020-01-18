@@ -28,7 +28,12 @@ export default [
             {
                 name: 'iMac Pro',
                 img: "https://www.apple.com/v/mac/home/am/images/familybrowser/imac_pro__eer4bfwlutme_large.svg",
-                path: "/imac-pro",
+                path: "/imac-pro/",
+            },
+            {
+                name: "Mac mini",
+                img: "https://www.apple.com/v/mac/home/am/images/familybrowser/macmini__c6u0it831y0y_large.svg",
+                path: "mac-mini",
             },
         ]
 
@@ -40,12 +45,12 @@ export default [
             {
                 name: "iPad Pro",
                 img: "https://www.apple.com/v/ipad/home/aw/images/chapternav/ipadpro_light__dxq7nxjgsd2e_large.svg",
-                path: "/ipad-pro",
+                path: "/ipad-pro/",
             },
             {
                 name: "iPad Air",
                 img: "https://www.apple.com/v/ipad/home/aw/images/chapternav/ipadair_light__gan6yfrffc66_large.svg",
-                path: "/ipad-air",
+                path: "/ipad-air/",
             },
             {
                 name: "iPad",

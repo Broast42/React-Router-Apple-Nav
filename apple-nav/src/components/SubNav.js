@@ -5,19 +5,19 @@ import { Route } from "react-router-dom";
 
 const NavArea = styled.div`
     background: #999999;
+    
 `;
+
+
 
 export default function SubNav(props){
     return(
-        <NavArea>
+        <NavArea>  
             {props.data.map((x,index)=>(
-                <Route path={`${x.path}`} key={index}
+               <Route path={`${x.path}`} key={index}
                 render={props => <NavItem links={x.links} />}
                 />
-            
-
-            ))}
-            
+            ))}    
         </NavArea>
     );
 }

@@ -11,9 +11,23 @@ a{
   color: #8c8c8c;
 }
 
+nav img{
+  width: 18px;
+}
+
+.search{
+  background-position: 10px 0;
+  background-size: 18px 88px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.apple.com/ac/globalnav/5/en_US/images/globalnav/search/image_large.svg); 
+  width: 18px;
+  height: 40px;
+  padding: 0 10px;
+}
+
 img{
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 40px;
+  max-height: 40px;
 }
 
 .App-logo {
