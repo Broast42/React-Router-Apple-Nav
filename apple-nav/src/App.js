@@ -1,11 +1,18 @@
 import React from 'react';
+import NavWrapper from './components/NavWrapper';
+import SubNav from "./components/SubNav";
+import data from "./data";
 import './App.css';
+
+const linkData = data;
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <NavWrapper data={linkData}/>
+      <SubNav />
     </div>
+    
   );
 }
 

@@ -3,7 +3,7 @@
 export default [
     {
         title: "Mac",
-        path: "/sub-nav/mac/",
+        path: "/sub-nav/mac",
         links: [
             {
                 name: "MacBook Air",
@@ -35,7 +35,7 @@ export default [
     },
     {
         title: "iPad",
-        path: "/sub-nav/ipad/",
+        path: "/sub-nav/ipad",
         links:[
             {
                 name: "iPad Pro",
@@ -66,7 +66,7 @@ export default [
     },
     {
         title: "iPhone",
-        path: "/sub-nav/iphone/",
+        path: "/sub-nav/iphone",
         links:[
             {
                 name: "iPhone 11 Pro",
@@ -97,7 +97,7 @@ export default [
     },
     {
         title: "Watch",
-        path: "/sub-nav/watch/",
+        path: "/sub-nav/watch",
         links: [
             {
                 name: "Apple Watch Series 5",
@@ -128,7 +128,7 @@ export default [
     },
     {
         title: "TV",
-        path: "/sub-nav/tv/",
+        path: "/sub-nav/tv",
         links: [
             {
                 name: "Apple TV app",
@@ -164,7 +164,7 @@ export default [
     },
     {
         title: "Music",
-        path: "/sub-nav/music/",
+        path: "/sub-nav/music",
         links: [
             {
                 name: "Apple Music",
