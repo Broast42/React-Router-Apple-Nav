@@ -5,6 +5,7 @@ import { Route } from "react-router-dom";
 
 const NavArea = styled.div`
     background: #999999;
+    padding-top: 15px;
     
 `;
 
