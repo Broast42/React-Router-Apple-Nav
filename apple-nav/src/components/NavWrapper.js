@@ -19,8 +19,8 @@ export default function NavWrapper(props){
     return(
         <NavBar>
             <NavLink to="/"><img src="https://www.apple.com/ac/globalnav/5/en_US/images/globalnav/apple/image_large.svg" alt="apple"/></NavLink>
-            {props.data.map(x => (
-                <NavLinks title={x.title} paths={x.path} links={x.links}/>
+            {props.data.map((x, index) => (
+                <NavLinks  key={index} title={x.title} paths={x.path} links={x.links}/>
             ))}
             
             <NavLinks />

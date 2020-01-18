@@ -7,6 +7,15 @@ a{
   color: #cccccc;
 }
 
+.active{
+  color: #8c8c8c;
+}
+
+img{
+  max-width: 50px;
+  max-height: 50px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

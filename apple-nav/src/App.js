@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <NavWrapper data={linkData}/>
-      <SubNav />
+      <SubNav data={linkData} />
     </div>
     
   );
